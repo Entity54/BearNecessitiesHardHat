@@ -9,7 +9,6 @@ import './ExecutionOrdersEngineFromFantom.sol';
    
 contract OrdersManager { 
 
-    //FOR SPOOKY SWAP FTM, BOO, MIM, WETH 
     address public admin;  
  
     address public stellaSwapAddress; 
