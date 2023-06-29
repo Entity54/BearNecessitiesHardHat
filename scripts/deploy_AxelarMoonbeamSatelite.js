@@ -21,6 +21,7 @@ async function main() {
   // const axelarMoonbeamSatelite = await AxelarMoonbeamSatelite.deploy("0x5769D84DD62a6fD969856c75c7D321b84d455929","0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6","0x24aA375Ba88cC6751c2998fA24B007C48d0bA6a4");
   //Mainnet 
   const axelarMoonbeamSatelite = await AxelarMoonbeamSatelite.deploy("0x4F4495243837681061C4743b74B3eEdf548D56A5","0x2d5d7d31F671F86C782533cc367F14109a082712");
+  await axelarMoonbeamSatelite.deployed();
 
 
   console.log(

@@ -19,6 +19,7 @@ async function main() {
 
   //Mainnet 
   const executionOrdersEngineFromFantom = await ExecutionOrdersEngineFromFantom.deploy("0x4F4495243837681061C4743b74B3eEdf548D56A5","0x2d5d7d31F671F86C782533cc367F14109a082712");
+  await executionOrdersEngineFromFantom.deployed();
 
 
   console.log(

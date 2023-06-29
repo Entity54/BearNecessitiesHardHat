@@ -18,7 +18,7 @@ async function main() {
 
   //Mainnet 
   const axelarFantomSatelite = await AxelarFantomSatelite.deploy("0x304acf330bbE08d1e512eefaa92F6a57871fD895","0x2d5d7d31F671F86C782533cc367F14109a082712");
-
+  await axelarFantomSatelite.deployed();
 
   console.log(
     `axelarFantomSatelite with deployed to ${axelarFantomSatelite.address}`
