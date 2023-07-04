@@ -6,7 +6,7 @@
 
 //***** Smart Contract Address *****/
 //FANTOM
-const axelarFantomSatelite_address = "0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0";
+const axelarFantomSatelite_address = "0x4Ff100bc3b2f40F9F2AF03D095b1Bc5875538321"; //"0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0";
 const axlUSDC_address = "0x1B6382DBDEa11d97f24495C9A90b7c88469134a4";    //6 decimals
 
 //MOONBEAM
@@ -60,10 +60,10 @@ async function main() {
 
     console.log(`********************* AxelarFantomSatelite_instance Setting Up Start ***********************************`);
     // // UNCOMMENT AND RUN IF SETTING UP FOR FIRST TIME
-    // const tx_set_MoonbeamSatelite =  await AxelarFantomSatelite_instance.set_MoonbeamSatelite(axelarMoonbeamSatelite_address,executionOrdersEngineFromFantom_address);
-	// tx_set_MoonbeamSatelite.wait().then( async reslveMsg => {
-	// 	 console.log(`tx_set_MoonbeamSatelite is mined resolveMsg : `,reslveMsg);
-	// });
+    const tx_set_MoonbeamSatelite =  await AxelarFantomSatelite_instance.set_MoonbeamSatelite(axelarMoonbeamSatelite_address,executionOrdersEngineFromFantom_address);
+	tx_set_MoonbeamSatelite.wait().then( async reslveMsg => {
+		 console.log(`tx_set_MoonbeamSatelite is mined resolveMsg : `,reslveMsg);
+	});
     console.log(`********************* AxelarFantomSatelite_instance Setting Up End ***********************************`);
     console.log("");
     console.log("");

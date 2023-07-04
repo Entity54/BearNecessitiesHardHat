@@ -22,7 +22,7 @@ const executionOrdersEngineFromFantom_address = "0xc259A95E717ccf5aEDA5971CE967E
 const axelarMoonbeamSatelite_address = "0xb85E1D77d6430bBDAF91845181440407c3c2bf6b";
 
 //FANTOM SEE uj_AxelarFantomSatelite.js
-const axelarFantomSatelite_address = "0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0";
+const axelarFantomSatelite_address = "0x4Ff100bc3b2f40F9F2AF03D095b1Bc5875538321"; //"0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0";
 
 
 const stellaSwap_address = "0xF7aC2a2AdEaA1EFc0Bd4130F5a28AE73A1225663";

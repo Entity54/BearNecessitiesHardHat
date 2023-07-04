@@ -35,3 +35,4 @@ main().catch((error) => {
 
 
 // axelarFantomSatelite with deployed to 0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0
+// axelarFantomSatelite with deployed to 0x4Ff100bc3b2f40F9F2AF03D095b1Bc5875538321

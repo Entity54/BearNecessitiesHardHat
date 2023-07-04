@@ -189,6 +189,7 @@ contract AxelarFantomSatelite is AxelarExecutable {
         {
             bytes memory payload = abi.encode(4, finance_Order_Nonces_ToDelete);
             sendMessage("Moonbeam", executionOrdersEngineFromFatnomInMoomnbeam_address, payload);
+            delete finance_Order_Nonces_ToDelete;
         }
     }
 
